@@ -35,9 +35,30 @@ class MainActivity : AppCompatActivity() {
                 Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
             }
         })
+
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
     }
 
-    private fun htest() {
+    private fun abc() {
+
+    }
+
+    private fun htest1(a : Int, b: Int) : Int {
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekwerwerwerBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "on234234: ")
+        Log.d("TAGGGG", "onSeekwerwerwerBarChange: ")
+        Log.d("TAGGGG", "rwerwerw: ")
+        Log.d("TAGGGG", "onSeekBawerwerwerrChange: ")
+        return a + b
+    }
+
+    private fun htest2() {
 
     }
 
