@@ -9,6 +9,17 @@ import androidx.core.view.WindowInsetsCompat
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
+
+    val a1bc = ""
+    val ab212 = ""
+    val ab12 = ""
+    val ab122 = ""
+    val a2bc = ""
+    val ab1c = ""
+    val ab321c = ""
+    val abc = ""
+    val a4bc = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -43,4 +54,9 @@ class MainActivity : AppCompatActivity() {
     private fun abc() {
 
     }
+
+    private fun htest() {
+
+    }
+
 }
