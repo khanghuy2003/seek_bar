@@ -22,7 +22,25 @@ class MainActivity : AppCompatActivity() {
         findViewById<MySeekBarView>(R.id.sb).setSeekbarListener(object : MySeekBarView.WhenSeekBarChangeListener{
             override fun onSeekBarChange(progress: Float) {
                 Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
+                Log.d("TAGGGG", "onSeekBarChange: ${String.format(Locale.getDefault(),"%.02f", progress)}")
             }
         })
+
+
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+    }
+
+    private fun abc() {
+
     }
 }
