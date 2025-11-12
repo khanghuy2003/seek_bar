@@ -55,7 +55,18 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun htest() {
+    private fun htest1(a : Int, b: Int) : Int {
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "onSeekwerwerwerBarChange: ")
+        Log.d("TAGGGG", "onSeekBarChange: ")
+        Log.d("TAGGGG", "on234234: ")
+        Log.d("TAGGGG", "onSeekwerwerwerBarChange: ")
+        Log.d("TAGGGG", "rwerwerw: ")
+        Log.d("TAGGGG", "onSeekBawerwerwerrChange: ")
+        return a + b
+    }
+
+    private fun htest2() {
 
     }
 
